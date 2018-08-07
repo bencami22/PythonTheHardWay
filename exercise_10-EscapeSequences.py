@@ -6,3 +6,5 @@ print("""Shopping list
 \t*Fruit
 \t*Vegetables
 """)
+print("Ending the sentence with 'end=' ' tell print to not end the line with a new line ", end=' ')
+print("test")
