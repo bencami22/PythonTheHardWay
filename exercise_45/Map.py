@@ -10,6 +10,8 @@ class Map(Zone):
     "DeathPit" : DeathPit()
     }
 
+    current_zone = None
+
     def __init__(self):
         pass
 
@@ -17,5 +19,8 @@ class Map(Zone):
         #print("zone=", zone)
         next_zone = zone
         if next_zone != None:
+
+            super().changing_zone(self.current_zone, zone)
+            self.current_zone = zone
             next_zone = self.zones.get(zone).play()
             self.NextZone(next_zone)
