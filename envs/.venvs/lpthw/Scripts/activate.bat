@@ -1,5 +1,5 @@
 @echo off
-set "VIRTUAL_ENV=C:\Users\Ben\Documents\GitHub\PythonTheHardWay\exercise_46_skeleton\.venvs\lpthw"
+set "VIRTUAL_ENV=C:\Users\Ben\Documents\GitHub\PythonTheHardWay\envs\.venvs\lpthw"
 
 if defined _OLD_VIRTUAL_PROMPT (
     set "PROMPT=%_OLD_VIRTUAL_PROMPT%"

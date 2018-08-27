@@ -40,7 +40,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="$(if [ "$OSTYPE" "==" "cygwin" ]; then cygpath -u 'C:\Users\Ben\Documents\GitHub\PythonTheHardWay\exercise_46_skeleton\.venvs\lpthw'; else echo '/C/Users/Ben/Documents/GitHub/PythonTheHardWay/exercise_46_skeleton/.venvs/lpthw'; fi;)"
+VIRTUAL_ENV="$(if [ "$OSTYPE" "==" "cygwin" ]; then cygpath -u 'C:\Users\Ben\Documents\GitHub\PythonTheHardWay\envs\.venvs\lpthw'; else echo '/C/Users/Ben/Documents/GitHub/PythonTheHardWay/envs/.venvs/lpthw'; fi;)"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
