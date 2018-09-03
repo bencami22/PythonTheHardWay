@@ -1,5 +1,5 @@
 from nose.tools import *
-from ex51 import app
+from ex51.ex51 import app
 
 app.config['TESTING'] = True
 web = app.test_client()
